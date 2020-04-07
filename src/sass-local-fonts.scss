@@ -1,7 +1,7 @@
 @import './generate-font-source';
 @import './font-face-mixin';
 
-$sass-local-font-folder: '../fonts/';
+$sass-local-font-folder: '../fonts/' !default;
 
 @if global-variable-exists($name: 'font-families') {
 
