@@ -1,0 +1,42 @@
+{
+  "name": "sass-local-fonts",
+  "version": "1.0.0",
+  "description": "Sass mixin which helps you to define cross-browser font families locally via sass variable",
+  "main": "example/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubtsovi/sass-local-fonts.git"
+  },
+  "keywords": [
+    "sass",
+    "mixin",
+    "font",
+    "font-family",
+    "css",
+    "local",
+    "cross-browser"
+  ],
+  "author": "rubtsovi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubtsovi/sass-local-fonts/issues"
+  },
+  "homepage": "https://github.com/rubtsovi/sass-local-fonts#readme",
+  "devDependencies": {
+    "css-loader": "^3.5.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.0.4",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "lorem-ipsum": "^2.0.3"
+  }
+}

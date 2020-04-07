@@ -1,0 +1,32 @@
+$font-families: (
+  "Muli": (
+    300: "Muli-Light",
+    400: "muli-regular",
+    700: "Muli-ExtraBold"
+  )
+);
+
+
+@import '../../../src/sass-local-fonts.scss';
+
+html, div, p, li {
+    font-family: Muli;
+    font-weight: 300;
+}
+
+h1{
+    font-weight: 400;
+}
+
+strong{
+    font-weight: 700;
+}
+
+.container{
+    width: 100%;
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4rem 15px;
+}
+
