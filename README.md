@@ -1,6 +1,6 @@
-#Sass local fonts
+# Sass local fonts
 This mixin will help you to define CSS font families. Just import the `sass-local-fonts.scss` to your SASS root after the defining variables.
-###Usage
+### Usage
 Define the `$font-families` variable before the importing the mixin. This variable should look like this:
 ```scss
 $font-families: (
